@@ -99,11 +99,16 @@ header>div>ul>li>p{
     text-align: center;
     justify-content: space-around;
     background-color: rgb(234, 227, 214);
-    height: 20vw;
+    height: 35vw;
+    width: 100vw;
 }
 .basDePage>ul>li{
     padding-top: 25px;
 }
 .basDePage>ul>li>img{
     height: 14vh
+}
+#wrap{
+   /* width:600vw;  */
+   /* flex-wrap: wrap-reverse; */
 }
