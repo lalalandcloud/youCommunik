@@ -1,0 +1,11 @@
+p{
+ font-family: ubuntu;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header>div>ul{
+    display: flex;
+    
+}
