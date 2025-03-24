@@ -93,3 +93,9 @@ header>div>ul>li>p{
     width: 60vw;
     /* margin-right: 25px; */
 }
+.basDePage>ul{
+    list-style: none;
+}
+.basDePage>ul>li>img{
+    height: 14vh
+}
