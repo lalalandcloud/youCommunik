@@ -95,6 +95,11 @@ header>div>ul>li>p{
 }
 .basDePage>ul{
     list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(234, 227, 214);
+    height: 20vw;
 }
 .basDePage>ul>li>img{
     height: 14vh
