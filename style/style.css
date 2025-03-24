@@ -9,21 +9,58 @@ header{
     background-color: black;
     color: white;
 }
+header>div>img{
+    height: 40%;
+    align-items: center;
+    margin-top: 15px;
+}
 header>div>ul{
     display: flex;
     list-style: none;
     font-size: 50%;
+    text-align: center;
 }
 .headerLogo{
    height: 30%;
-   display: block;
-   justify-content: space-around;
 }
 #hautDePage{
     background-color: rgb(51, 77, 92);
+    height: 22vh;
     color: white;
     display: flex;
+    justify-content: space-between;
 }
-#hautDePage>div>:nth-of-type()1){
-    font-size: 500%
+#texte{
+    margin-right: 100px;
+}
+#texte1{
+    font-size: 220%;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+#imgPackage{
+    padding-left: 30px;
+    padding-top: 30px;
+    height: 50%;
+}
+header>div>ul>li>p{
+    margin-top: 2px;
+}
+.titre1{
+    background-color: rgb(51, 77, 92);
+    color: white;
+    display: flex;
+    width: 200px;
+    height: 50px;    
+    margin-top: 40px;
+    align-items: center;
+}
+.titre1>p{
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 200%;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0px;
+    padding-top: 5px;
 }
