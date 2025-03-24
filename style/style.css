@@ -97,9 +97,12 @@ header>div>ul>li>p{
     list-style: none;
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgb(234, 227, 214);
     height: 20vw;
+}
+.basDePage>ul>li{
+    padding-top: 25px;
 }
 .basDePage>ul>li>img{
     height: 14vh
