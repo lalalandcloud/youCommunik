@@ -39,8 +39,8 @@ header>div>ul{
     margin-top: 10px;
 }
 #imgPackage{
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
     height: 60%;
 }
 header>div>ul>li>p{
@@ -66,5 +66,18 @@ header>div>ul>li>p{
     height: 50px;
 }
 .content{
+    margin-top: 50px;
     display: flex;
+    flex-wrap: wrap-reverse;
+}
+.content div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.content>div>p{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
