@@ -1,11 +1,20 @@
-p{
+body{
  font-family: ubuntu;
 }
 header{
     display: flex;
     justify-content: space-between;
+    height: 11vh;
+    background-color: black;
+    color: white;
 }
 header>div>ul{
     display: flex;
-    
+    list-style: none;
+    font-size: 50%;
+}
+.headerLogo{
+   height: 30%;
+   display: block;
+   justify-content: space-around;
 }
