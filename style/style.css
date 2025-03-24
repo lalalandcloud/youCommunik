@@ -41,26 +41,27 @@ header>div>ul{
 #imgPackage{
     padding-left: 30px;
     padding-top: 30px;
-    height: 50%;
+    height: 60%;
 }
 header>div>ul>li>p{
     margin-top: 2px;
 }
 .titre1{
-    background-color: rgb(51, 77, 92);
-    color: white;
-    display: flex;
-    width: 200px;
+    /* display: flex; */
     height: 50px;    
-    margin-top: 40px;
-    align-items: center;
+    /* margin-top: 40px; */
+    width: 100%;
+    background-color: rgb(51, 77, 92);
 }
 .titre1>p{
+    display: flex;
+    color: white;
+    align-items: center;
     justify-content: center;
     text-transform: capitalize;
     font-size: 200%;
-    padding-left: 40px;
+    /* padding-left: 40px;
     padding-right: 40px;
     margin: 0px;
-    padding-top: 5px;
+    padding-top: 5px; */
 }
