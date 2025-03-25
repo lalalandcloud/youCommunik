@@ -13,19 +13,25 @@ header{
     background-color: black;
     color: white;
 }
+header>div{
+}
 header>div>img{
-    height: 25%;
+    height: 45%;
     align-items: center;
     margin-top: 30px;
 }
 header>div>ul{
     display: flex;
     list-style: none;
-    font-size: 50%;
+    font-size: 70%;
     text-align: center;
+    justify-content: space-between;
+    width: 50vw;
+    margin-right: 3vw;
+
 }
 .headerLogo{
-   height: 40%;
+   height: 80%;
 }
 #hautDePage{
     background-color: rgb(51, 77, 92);
@@ -38,13 +44,13 @@ header>div>ul{
     margin-right: 80px;
 }
 #text1{
-    font-size: 240%;
+    font-size: 400%;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
 }
 #text2{
-    font-size: 150%;
+    font-size: 250%;
     margin-top: 15px;
 }
 #imgPackage{
@@ -96,6 +102,8 @@ header>div>ul>li>p{
     font-size: 100%;
     width: 60vw;
     /* margin-right: 25px; */
+    width: 50vw;
+    margin-right: 10vw;
 }
 .basDePage>ul:not(#wrapp){
     list-style: none;
@@ -103,7 +111,7 @@ header>div>ul>li>p{
     text-align: center;
     justify-content: space-around;
     background-color: rgb(234, 227, 214);
-    height: 22vw;
+    height: 21vw;
     width: 99vw;
 }
 .basDePage>ul>li{
@@ -114,7 +122,7 @@ header>div>ul>li>p{
     height: 17vh
 }
 #wrap{
-    height: 32vw;
+    height: 28vw;
     list-style: none;
     display: flex;
     text-align: center;
@@ -127,16 +135,62 @@ header>div>ul>li>p{
 }
 #margin{
     margin: 0px;
-    margin-bottom: 1vw;
-    padding-bottom: 4vw;
+    margin-bottom: 0vw;
+    padding-bottom: 0vw;
 }
 footer{
     background-color: rgb(57, 58, 59);
     color: white;
+    height: 18vw;
+    padding-top: 5vw;
 }
-footer>div:not(#cgv){
+footer>div{
+    justify-content: space-evenly;
     display: flex;
 }
-footer>div>img{
-    height: 7vw;
+footer>div>div{
+    justify-content: center;
+    display: inline;
+    width: 25vw;
+}
+footer>div>div>div{
+    gap: 2vw;
+    display: flex;
+}
+footer>div>div>div>img{
+    height: 5vw;
+}
+#cgv{
+    display: flex;
+    height: auto;
+    width: 3vw;
+    margin: 0;
+    padding: 0;
+    font-size:50%;
+    justify-self:flex-end;
+    padding: 1vw;
+    padding-bottom: 2vw;
+}
+footer>div>div>p{
+    width: auto;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 2vw;
+}
+
+.basDePage2>ul:not(#wrapp){
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(234, 227, 214);
+    height: 20vw;
+    width: 99vw;
+}
+.basDePage2>ul>li{
+    padding-top: 25px;
+    width: 25vw;
+}
+.basDePage2>ul>li>img{
+    height: 17vh
 }
