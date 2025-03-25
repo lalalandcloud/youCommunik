@@ -130,3 +130,13 @@ header>div>ul>li>p{
     margin-bottom: 1vw;
     padding-bottom: 4vw;
 }
+footer{
+    background-color: rgb(57, 58, 59);
+    color: white;
+}
+footer>div:not(#cgv){
+    display: flex;
+}
+footer>div>img{
+    height: 7vw;
+}
