@@ -13,8 +13,6 @@ header{
     background-color: black;
     color: white;
 }
-header>div{
-}
 header>div>img{
     height: 45%;
     align-items: center;
@@ -130,8 +128,6 @@ header>div>ul>li>p{
     width: 99vw;
     margin: 0px;
     margin-top: 3vw;
-}
-#wrapp{
 }
 #margin{
     margin: 0px;
