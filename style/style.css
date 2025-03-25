@@ -135,8 +135,8 @@ header>div>ul>li>p{
 }
 #margin{
     margin: 0px;
-    margin-bottom: 0vw;
     padding-bottom: 0vw;
+    margin-top: -5vw;
 }
 footer{
     background-color: rgb(57, 58, 59);
@@ -169,7 +169,7 @@ footer>div>div>div>img{
     font-size:50%;
     justify-self:flex-end;
     padding: 1vw;
-    padding-bottom: 2vw;
+    padding-bottom: 1vw;
 }
 footer>div>div>p{
     width: auto;
